@@ -1,3 +1,3 @@
-document.getElementById('cta-bin').addEventListener('click', function() {
-  alert('You clicked the Call to Action button!');
-  ));
+function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+}
