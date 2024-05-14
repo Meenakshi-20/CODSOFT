@@ -1,98 +1,71 @@
-/* Reset CSS */
-* {
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Product Sans', sans-serif;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+#welcome{
+    background-color: #150734;
+    padding-top: 150px;
 }
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-header {
-    background-color: #333;
+#welcome h1{
     color: #fff;
-    padding: 20px 0;
 }
-
-header h1 {
-    margin: 0;
+#welcome span{
+    color: orange;
 }
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
+#welcome h2{
     color: #fff;
-    text-decoration: none;
 }
-
-section {
-    padding: 50px 0;
-}
-
-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-section p {
-    font-size: 1.1em;
-}
-
-ul {
-    list-style: none;
-}
-
-footer {
-    background-color: #333;
+#welcome p{
     color: #fff;
-    padding: 20px 0;
+}
+#welcome button{
+    padding: 15px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 0px;
+}
+#welcome img{
+    width: 100%;
+}
+#project{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#project h2{
+    text-align: center;
+    color: #150734;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#project .card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#project .col-md-4{
+    margin-bottom: 30px;
+}
+#project .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#contact{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #150734;
     text-align: center;
 }
-
-form label {
-    display: block;
-    margin-bottom: 5px;
+#contact h1{
+    color: orange;
 }
-
-form input[type="text"],
-form input[type="email"],
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form textarea {
-    height: 150px;
-}
-
-form button {
-    background-color: #333;
+#contact h4{
     color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
 }
-
-form button:hover {
-    background-color: #555;
+#contact a{
+    color: #fff;
+    text-decoration: none;
 }
